@@ -1,0 +1,31 @@
+{
+  "name": "upload-taobao",
+  "version": "1.0.0",
+  "description": "17网一键上传淘宝",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp",
+    "test": "test"
+  },
+  "author": "LZhong",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.3.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.0.0",
+    "gulp-less": "^3.4.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^2.0.0"
+  },
+  "dependencies": {}
+}
