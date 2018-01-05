@@ -60,6 +60,7 @@ gulp.task('less2css', function () {
     .pipe(livereload());
 });
 
+//lib css 合并
 gulp.task('concatCss', function () {
   gulp.src(paths.src + 'css/*.css')
     .pipe(concat("all.css"))
@@ -86,7 +87,6 @@ gulp.task('copyImg', function () {
   gulp.src(paths.src + 'img/*.*')
     .pipe(gulp.dest(paths.dist + 'img'))
     .pipe(livereload());
-
 })
 
 

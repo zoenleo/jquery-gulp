@@ -1,7 +1,7 @@
 {
-  "name": "upload-taobao",
+  "name": "jquery-gulp",
   "version": "1.0.0",
-  "description": "17网一键上传淘宝",
+  "description": "a simple jquery gulp demo",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
